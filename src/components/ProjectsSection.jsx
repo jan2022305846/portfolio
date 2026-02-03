@@ -5,7 +5,7 @@ const projects =[
     id: 1,
     title: "SIMS",
     description: "A capstone project that centralizes office supply inventory, requests, and records for schools and organizations.",
-    imageUrl: "/public/projects/sims.png",
+    imageUrl: "/projects/sims.png",
     tags: ["PHP", "MySQL", "HTML", "CSS"],
     projectUrl: "https://github.com/jan2022305846/SIMS"
   },
