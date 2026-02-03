@@ -3,21 +3,21 @@ import { cn } from "@/lib/utils";
 
 const skills = [
   // Tools
-  {name: "Packet Tracer", level: 20, category: "tools"},
-  {name: "VirtualBox/VMs", level: 15, category: "tools"},
-  {name: "Terminal/CLI", level: 10, category: "tools"},
+  {name: "Packet Tracer", level: 30, category: "tools"},
+  {name: "VirtualBox/VMs", level: 25, category: "tools"},
+  {name: "Terminal/CLI", level: 25, category: "tools"},
   {name: "Github", level: 25, category: "tools"},
 
   // Operating Systems
-  {name: "Windows Server", level: 20, category: "os"},
+  {name: "Windows Server", level: 15, category: "os"},
   {name: "Linux Server", level: 15, category: "os"},
-  {name: "Kali Linux", level: 10, category: "os"},
+  {name: "Kali Linux", level: 25, category: "os"},
 
   // Dev
   {name: "HTML/CSS", level: 25, category: "dev"},
   {name: "JavaScript", level: 20, category: "dev"},
-  {name: "PHP", level: 15, category: "dev"},
-  {name: "MySQL", level: 10, category: "dev"}
+  {name: "PHP", level: 20, category: "dev"},
+  {name: "MySQL", level: 20, category: "dev"}
 ];
 
 const categories = ["all", "tools", "os", "dev"]; 
