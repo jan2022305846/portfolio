@@ -6,6 +6,7 @@ const navItems = [
   { name: 'Home', link: '#home' },
   { name: 'About', link: '#about' },
   { name: 'Skills', link: '#skills' },
+  { name: 'Certificates', link: '#certificates' },
   { name: 'Projects', link: '#projects' },
   { name: 'Contact', link: '#contact' },
 ];
@@ -47,7 +48,7 @@ export const NavBar = () => {
           {navItems.map((item,key) => (
             <a 
               key={ key } 
-              href={ item.href } 
+              href={ item.link } 
               className="text-foreground/80 hover:text-primary transition-colors duration-300"
             >
               {item.name}
