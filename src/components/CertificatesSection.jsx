@@ -1,7 +1,7 @@
 const certificates =[
   {
     id: 1,
-    title: "CCNA",
+    title: "CCNA (SAMPLE/NOTMINE)",
     imageUrl: "/certificates/ccna.png"
   },
 ];
