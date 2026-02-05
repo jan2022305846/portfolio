@@ -8,7 +8,7 @@ export const AboutSection =  () => {
     >
       {" "}
       <div className="container mx-auto max-w-5xl">
-        <h2 className="text-3xl md:text-4xl fonr-bold mb-12 text-center">
+        <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
           About <span className="text-primary">Me</span>
         </h2>
 
@@ -28,7 +28,7 @@ export const AboutSection =  () => {
                 Get In Touch
               </a>
               <a 
-                href="" 
+                href="cv/cv.pdf" 
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 {" "}
