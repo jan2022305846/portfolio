@@ -1,8 +1,8 @@
 const certificates =[
   {
     id: 1,
-    title: "CCNA (SAMPLE/NOTMINE)",
-    imageUrl: "/certificates/ccna.png"
+    title: "DICT X - CyberCONNECT",
+    imageUrl: "/certificates/cyberconnect.png"
   },
 ];
 export const CertificatesSection = ()  =>{
