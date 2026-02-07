@@ -77,7 +77,7 @@ export const NavBar = () => {
             {navItems.map((item,key) => (
               <a 
                 key={ key } 
-                href={ item.href } 
+                href={ item.link } 
                 className="text-foreground/80 hover:text-primary transition-colors duration-300"
                 onClick={() => setIsMenuOpen(false)}
               >
